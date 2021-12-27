@@ -16,6 +16,7 @@ for entry in entries:
 
     current_depth = entry
 
+# result = 1564
 print(f"part 1: result = {num_depth_measurement_increases}")
 
 # part 2
@@ -30,4 +31,5 @@ for i in range(0, len(entries) - 2):
 
     current_window_depth = next_window_depth
 
+# result = 1611
 print(f"part 2: result = {num_depth_measurement_increases}")
